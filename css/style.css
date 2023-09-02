@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+}
+
+header {
+}
+
+.header_wrap {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+}
+
+.unsubscribed {
+    width: 20%;
+}
+
+.unsubscribed a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(151, 153, 155);
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+}
+
+.banner {
+    background-image: url("../image/Banner.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h1 {
+    color: white;
+    padding-bottom: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.banner p {
+    color: white;
+    padding-bottom: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.banner button {
+    color: white;
+    background-color: rgb(251, 110, 82);
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.banner button:hover {
+    background-color: rgb(240, 83, 52);
+}
+
+.banner button i {
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.banner button:hover i {
+    margin-left: 3px;
+}
+
+.feature_section {
+    padding: 50px 0px;
+}
+
+.feature_wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature_item {
+    width: 30%;
+    text-align: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(240, 83, 52);
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    line-height: 60px;
+    margin: auto;
+}
+
+.feature_item h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(41, 44, 52);
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.feature_item p {
+    padding-bottom: 30px;
+    color: #97999b;
+    font-size: 15px;
+}
+
+.quote{
+
+width: 70%;
+
+margin: 40px auto;
+
+}
+
+.quote h1{
+    
+text-align: center;
+    
+color: #fb6e52;
+    
+font-style: italic;
+    
+font-size: 24px;
+    
+line-height: 29px;
+    
+font-weight: 400;
+
+font-family: Roboto, sans-serif;
+
+}
+.image_section{
+
+padding: 30px 0;
+}
+.image{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+text-align: center;
+}
+.img_1{
+
+width: 30%;
+
+}
+.img_1 img{
+
+width: 100%;
+
+padding-bottom: 10px;
+}
+.img_1 h5{
+
+padding-bottom: 10px;
+
+color: #292c34;
+
+font-size: 15px;
+
+font-family: Roboto, sans-serif;
+}
+.img_1 p{
+
+color: #97999b;
+
+font-size: 13px;
+
+font-family: Roboto, sans-serif;
+
+margin-bottom: 20px;
+
+}
+
+.image_section_2{
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    
+}
+.image_section_2 h1{
+    text-align: center;
+    padding: 50px 0;
+ 
+    font-size: 20px;
+    color: #292c34;
+    font-family: Roboto, sans-serif;
+
+}
+.image_2{
+    width: 70%;
+
+    margin: auto;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    
+}
+.img_2{
+    width: 46%;
+}
+.img_2 img{
+    
+width: 100%;
+
+padding-bottom: 10px;
+}
+.img_2 h5{
+    padding-bottom: 10px;
+
+color: #fb6e52;
+
+font-size: 15px;
+
+font-family: Roboto, sans-serif;
+}
+.img_2 p{
+color: #97999b;
+
+font-size: 13px;
+
+font-family: Roboto, sans-serif;
+}
+
+footer{
+
+background: #292c34;
+
+padding: 30px 0;
+
+}
+.footer_section{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+}
+.logo_1{
+
+width: 20%;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.logo_1 img{
+    
+}
+.logo_1 p{
+    
+font-size: 13px;
+    
+color: #797c82;
+    
+margin-right: 35px;
+}
+.menu{
+
+width: 20%;
+
+}
+.menu ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+}
+.menu li{ 
+    
+}
+.menu a{
+    
+text-decoration: none;
+    
+color: white;
+    
+margin-left: 40px;
+}
